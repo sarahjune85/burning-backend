@@ -1,4 +1,4 @@
 class User < ApplicationRecord
   has_many :reservations
-  belongs_to :flights, :through => :reservations
+  has_many :flights, :through => :reservations
 end
