@@ -57,13 +57,14 @@ class AirplanesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_airplane
-      @airplane = Airplane.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def airplane_params
-      params.require(:airplane).permit(:name, :row, :col)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_airplane
+    @airplane = Airplane.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def airplane_params
+    params.require(:airplane).permit(:name, :rows, :cols)
+  end
 end
