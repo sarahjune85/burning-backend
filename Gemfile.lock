@@ -175,10 +175,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
-<<<<<<< HEAD
-=======
   rack-cors
->>>>>>> 0744d3eb34563593256ecf0bab57c76fd2757af5
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.1)
   spring

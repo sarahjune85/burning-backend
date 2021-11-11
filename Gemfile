@@ -19,10 +19,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-<<<<<<< HEAD
-=======
+
 gem 'rack-cors'
->>>>>>> 0744d3eb34563593256ecf0bab57c76fd2757af5
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
